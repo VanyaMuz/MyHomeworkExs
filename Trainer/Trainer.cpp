@@ -4,6 +4,7 @@ using namespace std;
 
 class Circle
 {
+
 private:
 	const double Pi;
 	double r;
