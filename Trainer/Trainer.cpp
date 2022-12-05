@@ -19,7 +19,7 @@ public:
 	{
 		return Pi * r * r;
 	}
-	double Perimetr()
+	double Perimeter()
 	{
 		return 2 * Pi * r;
 	}
@@ -31,9 +31,9 @@ int main()
 	cout << "Enter radius: " << endl;
 	double r = 0;
 	cin >> r;
-	Circle cir1(r);
-	cout << "Perimetr= " << cir1.Perimetr() << endl;
-	cout << "Area= " << cir1.Area() << endl;
+	Circle circle_1(r);
+	cout << "Perimeter= " << circle_1.Perimeter() << endl;
+	cout << "Area= " << circle_1.Area() << endl;
 	
 
 	
